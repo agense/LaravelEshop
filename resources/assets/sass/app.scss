@@ -1,0 +1,24 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Bootstrap
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootstrap/scss/bootstrap.scss";
+
+//Bootswatch Lux Theme
+@import "bootswatch-lux-theme";
+
+
+// Variables
+@import "variables";
+
+
+//FRONT END STYLES
+@import "front_end.scss";
+
+//BACK END STYLES
+@import "back_end.scss";
+
+
+

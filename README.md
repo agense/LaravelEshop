@@ -42,10 +42,9 @@ php artisan db:seed
 ```
 *Note: Default backend administrator is created when seeding database. These credentials can be used to access the admin area.*
 
-* Install Javascript dependencies and compile the project:
+* Install Javascript dependencies:
 ```bash
 npm install
-npm run dev
 ```
 * Configure the mail service provider credentials  in .env file.
 

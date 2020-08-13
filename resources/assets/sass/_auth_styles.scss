@@ -1,0 +1,112 @@
+.auth-holder{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+
+.auth-holder-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.8);
+}
+.auth-content{
+    width: 70%;
+    margin: 0 auto;
+}
+.auth-holder-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.auth-content .brand-image{
+    margin-top:0;
+}
+.auth-content .app-name{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-family: "Raleway", "Roboto", "Arial", sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+.auth-content .app-subtitle{
+    text-align: center;
+    margin-bottom: 2.25rem;
+    color: #989898;
+    font-size: 0.825rem;
+    letter-spacing: 0.05rem;
+    font-family: "Raleway", "Roboto", "Arial", sans-serif;
+}
+.panel{
+    width:90%;
+    margin:0 auto;
+}
+.auth-form .panel-default .panel-heading {
+    text-transform: uppercase;
+    color: #989898;
+    font-size: 1rem;
+    border:none;
+    margin-left:0;
+    margin-bottom:0;
+    padding-bottom:1rem;
+}
+.auth-form .control-label{
+    display:none;
+}
+.auth-form .btn-primary{
+    width:100%;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+.auth-form .btn-link{
+    padding: 0;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+/*USER LOGIN*/
+.user-auth-holder{
+    height:calc(100vh - 77px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.user-auth-holder .auth-holder-img{
+    background-image: none;
+}
+.user-auth-form .panel-default .panel-heading{
+    color:#212121;
+}
+.user-auth-form .form-control{
+    background: rgba(255,255,255,0.7);
+}
+@media only screen and (max-width:992px){
+    .auth-holder{
+        grid-template-columns: 1fr 1fr;
+    }
+    .user-auth-holder .auth-content{
+        margin:0 auto;
+    }
+}
+@media only screen and (max-width:768px){
+    .auth-holder{
+        grid-template-columns: 3fr 1fr;
+    }
+    .user-auth-holder{
+        grid-template-columns: 3fr 1fr;
+    }
+}
+@media only screen and (max-width:498px){
+    .auth-holder{
+        grid-template-columns: 1fr;
+    }
+    .auth-holder-img{
+        display:none;
+    }
+    .user-auth-holder{
+        background: none;
+    }
+}

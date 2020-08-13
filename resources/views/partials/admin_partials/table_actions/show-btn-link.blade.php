@@ -1,0 +1,1 @@
+<a href="{{route($showUrl, $dataId)}}" class="btn btn-show btn-sm"><i class="fi fi-eye"></i></a>

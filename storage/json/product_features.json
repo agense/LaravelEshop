@@ -1,0 +1,71 @@
+[
+   {
+      "name":"RAM Memory",
+      "options":[
+         "2_GB",
+         "4_GB",
+         "8_GB",
+         "12_GB",
+         "16_GB",
+         "32_GB"
+      ]
+   },
+   {
+      "name":"Processor",
+      "options":[
+         "Intel_Core_I3",
+         "Intel_Core_I5",
+         "Intel_Core_I7",
+         "Intel_Core_I9",
+         "AMD_Ryzen_3",
+         "AMD_Ryzen 5",
+         "AMD_Ryzen_7"
+      ]
+   },
+   {
+      "name":"HHD Capacity",
+      "options":[
+         "500_GB",
+         "1_TB"
+      ]
+   },
+   {
+      "name":"SSD Capacity",
+      "options":[
+         "32_GB",
+         "128_GB",
+         "256_GB",
+         "512_GB",
+         "1_TB"
+      ]
+   },
+   {
+      "name":"Screen Size",
+      "options":[
+         "8+",
+         "9+",
+         "10+",
+         "11+",
+         "12+",
+         "13+",
+         "14+",
+         "15+",
+         "16+",
+         "17+",
+         "18+",
+         "19+",
+         "20+",
+         "21+",
+         "22+",
+         "23+"
+      ]
+   },
+   {
+      "name":"Video Card",
+      "options":[
+         "HD",
+         "Geforce",
+         "Radeon"
+      ]
+   }
+]
